@@ -4,9 +4,9 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name immanuel999-bot-MD",
-    "stop": "pm2 stop immanuel999-bot-MD",
-    "restart": "pm2 restart immanuel999-bot-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name wabot immanuel999-bot-MD",
+    "stop": "pm2 stop wabot immanuel999-bot-MD",
+    "restart": "pm2 restart wabot immanuel999-bot-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
